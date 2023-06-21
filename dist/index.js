@@ -13,7 +13,3 @@ console.log("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     });
     return /a/; // Prevents the Node.js application form crashing
 })();
-function sleep(millis) {
-    return new Promise(resolve => setTimeout(resolve, millis));
-}
-await sleep(300000);
